@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pricing Plans</title>
+  <link rel="stylesheet" href="pricing.css">
+</head>
+<body>
+
+<h1 class="title">Choose Your Plan</h1>
+
+<div class="container">
+  <div class="card" onclick="selectPlan(this, 'Basic')">
+    <h2>Basic</h2>
+    <p class="price">₹199</p>
+    <ul>
+      <li>1 User</li>
+      <li>Basic Support</li>
+    </ul>
+    <button>Select</button>
+  </div>
+
+  <div class="card" onclick="selectPlan(this, 'Standard')">
+    <h2>Standard</h2>
+    <p class="price">₹399</p>
+    <ul>
+      <li>5 Users</li>
+      <li>Priority Support</li>
+    </ul>
+    <button>Select</button>
+  </div>
+
+  <div class="card" onclick="selectPlan(this, 'Premium')">
+    <h2>Premium</h2>
+    <p class="price">₹699</p>
+    <ul>
+      <li>Unlimited Users</li>
+      <li>24/7 Support</li>
+    </ul>
+    <button>Select</button>
+  </div>
+</div>
+
+<script src="pricing.js"></script>
+</body>
+</html>
